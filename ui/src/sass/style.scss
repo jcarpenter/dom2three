@@ -12,7 +12,7 @@ html, body {
 body {
   background: url('../images/background.png') no-repeat;
   background-size: 100%;
-  font-family: 'Montserrat';
+  font-family: 'Fira Sans';
   font-size: 10px;
   font-weight: 400;
   margin: 0;
@@ -58,13 +58,25 @@ guidelines
 }
 
 
-
-
-
+#url {
+  width: 34rem;
+  height: 4rem;
+  border: 0.5rem solid white;
+  background: rgba( 255, 255, 255, 0 );
+  font-size: 1.75rem;
+  color: rgba( 255, 255, 255, 0.75 );
+  text-align: left;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  display: inline-block;
+  margin-top: 2rem
+}
 
 
 #favorites {
   display: inline-block;
+  border-top: 1rem solid rgba(255,255,255,0.25);
+  padding-top: 4rem;
 }
 
 .fav {
